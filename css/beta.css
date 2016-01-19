@@ -1,0 +1,23 @@
+body {
+	    background: url(http://endorph.me/assets/images/testhome_4.jpg) no-repeat center center fixed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    font-family: "Calibre-Light", 'helvetica neue';
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.beta-content {
+    color:white;
+}
+
+.beta-content ul{
+    list-style-type: none;
+}

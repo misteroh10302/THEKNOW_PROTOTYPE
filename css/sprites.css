@@ -1,0 +1,40 @@
+.facebook-4-48, .google-plus-4-48, .instagram-4-48, .pinterest-4-48, .sharethis-4-48, .twitter-4-48{
+	background: url(http://madeline-omoore.com/THEKNOW_PROTOTYPE/images/social-buttons/sprites.png) no-repeat;
+}
+
+.facebook-4-48{
+	background-position: -249.9971466064453px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.google-plus-4-48{
+	background-position: -200.9971466064453px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.instagram-4-48{
+	background-position: -151.9971466064453px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.pinterest-4-48{
+	background-position: -100.99714660644531px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.sharethis-4-48{
+	background-position: -50.99714660644531px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.twitter-4-48{
+	background-position: 0 0;
+	width: 48px;
+	height: 48px;
+}
+

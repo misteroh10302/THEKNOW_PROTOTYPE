@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>THE KNOW COLLECTIVE</title>
+	
+	<link rel="stylesheet" href="css/responsive-header.css">
+	<link rel="stylesheet" href="css/large-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	 <link href="js/yt.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/sprites.css">
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
+
+
+	<div id="container">
+
+	<header>
+		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="header-inner">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      
+		    </div>
+		    <a class="navbar-brand" href="index.html">THE KNOW COLLECTIVE</a>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+		     
+		      <ul class="nav navbar-nav navbar-left">
+		        <li ><a href="index.html">FORUM</a></li>
+		        <li style="font-family:questa sans;"><a href="spotlight.html">Spotlight</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+
+
+		        <li><a href="#">
+
+
+
+		        	<!-- SERACH trigger modal -->
+						<button type="button" class="btn btn-default search-button" data-toggle="modal" data-target="#searchModal">
+						  <span style="zoom: 1.5; position: relative;top: 2px;" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
+						</button>
+
+						<!-- Modal -->
+						<div class="modal" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+						  <div class="modal-dialog searchmodal" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">WHAT ARE YOU LOOKING FOR?</h4>
+						      </div>
+						      <div class="modal-body">
+						        <input type="text">
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Save changes</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+
+		        </a></li>
+		        <li><a href="#">
+
+							        							<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary btn-md ask-button" data-toggle="modal" data-target="#questionModal">
+					  ASK A QUESTION
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">ASK THE COLLECTIVE</h4>
+					      </div>
+					      <div class="modal-body">
+					      	<input type="text" value="Type your question here:" size="80" >
+					      	<br>
+					        <input type="radio" name="sex" value="male">   Mind
+							<input type="radio" name="sex" value="female">  Body
+					              </div>
+
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-primary">Submit</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+		        </a></li>
+		        <li>
+
+		        	  <div class="dropdown">
+				        <a data-target="#" href="page.html" data-toggle="dropdown" class="dropdown-toggle">
+				        	<img 
+				        	class="nav-profile-image"
+				        	src="https://s3.amazonaws.com/slant/users/f6285ec7-c58d-4e46-bd89-3b0f5a67f85a/media_6a7c9b00-1a13-11e5-b2b9-0193dca05497.jpg" alt="">
+
+				        	 </a>
+				        <ul class="dropdown-menu">
+				            <li><a href="profile.html">
+									PROFILE
+
+				            </a></li>
+				            <li><a href="saved.html">
+									SAVED
+
+				            </a></li>
+				            <li><a href="beta-login.html">LOGOUT</a></li>
+				        </ul>
+				    </div>
+		
+
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		    </div>  <!-- end header inner -->
+		</nav>
+		
+
+	</header>
+
+	<div id="content" class="home">
+		<div class="row">
+			<div class="left-side-bar col-xs-12 col-md-3 hidden-xs">
+				<div class="trending-box">
+					<h5>Trending</h5>
+					<ul class="trending-items">
+						<li class="list-item-trending">
+							<a href="question-landing.html">
+							What do you do for a hurting stomach?
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							How do I get rid of negative body image?
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							Why does all milk make my breath smell?
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							What are some of the best ways we can help one another outside of the standard inspirational quotes?  
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							How does your race, nationality and class status affect the way the world perceives your 'womaness' ?
+							</a>
+
+						</li>
+					</ul>
+				</div> <!-- trending box -->
+				
+				<div class="our-picks ">
+					<h5>Top Spotlights </h5>
+
+					
+
+						<div class="picks-item  col-md-12">
+							<a href="spotlight-landing.html">
+							<img src="http://41.media.tumblr.com/e9dc028ce0bbcbd3dccb118afc18febc/tumblr_n9echqyao11qdnfkpo1_500.png" alt="" class="img-responsive">
+							<h6>Favorite LA Hangs</h6>
+							</a>
+						</div>
+
+					<div class="picks-item col-md-12">
+						<a href="spotlight-landing.html">
+						<img src="http://36.media.tumblr.com/de7a3490cd3c2ddc0c07fba109b19def/tumblr_nnev09Sm3J1r1613eo1_500.jpg" alt="" class="img-responsive">
+						<h6>Favorite LA Hangs</h6>
+						</a>
+					</div>
+					<div class="picks-item col-md-12">
+						<a href="spotlight-landing.html">
+						<img src="http://41.media.tumblr.com/13cace6e90d8e0b9aa099e2fcc9a0d2c/tumblr_ns29byQHQa1sn8k1uo1_500.png" alt="" class="img-responsive">
+						<h6>Favorite LA Hangs</h6>
+						</a>
+					</div>
+				
+				</div>
+
+				<div class="social-box">
+					<h5>Social</h5>
+					<ul class="share-buttons">
+									  <li><a href="https://www.facebook.com/sharer/sharer.php?u=&amp;t=" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/inverted/Facebook.png"></a></li>
+									  <li><a href="https://twitter.com/intent/tweet?source=&amp;text=:%20" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/inverted/Twitter.png"></a></li>
+									  <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/inverted/Google+.png"></a></li>
+									  <li><a href="http://www.tumblr.com/share?v=3&amp;u=&amp;t=&amp;s=" target="_blank" title="Post to Tumblr"><img src="images/flat_web_icon_set/inverted/Tumblr.png"></a></li>
+									  <li><a href="http://pinterest.com/pin/create/button/?url=&amp;description=" target="_blank" title="Pin it"><img src="images/flat_web_icon_set/inverted/Pinterest.png"></a></li>
+									  <li><a href="mailto:?subject=&amp;body=:%20" target="_blank" title="Email"><img src="images/flat_web_icon_set/inverted/Email.png"></a></li>
+									</ul>
+				</div>
+				<div class="news_sidebar">
+				<form id="new_subscribe">
+					    <h5>Newsletter</h5>
+
+					    <div class="newsletter_body">
+					    <span>Finally a reason to like Tuesdays.</span>  <br><br>   
+					    <input type="text" data-title="Email address" class="input search-input required email" id="subscriber_email" placeholder="email address..." style="    width: 99%;"> <br><br>
+					    <input type="submit" value="SIGN UP" class="btn search" style="      background-color: #C8DFF3;  width: 99%;" >
+					    <br> <br>
+						    <div class="sidebar_text" >
+						        By clicking this link you accept our
+						        <span><a href="http://endorphme.dev-srv.sevencollab.com/terms">web terms of use</a>, <a href="http://endorphme.dev-srv.sevencollab.com/privacy">privacy policy</a></span>
+						        and <span>cookie policy</span>.
+						    </div>
+
+					    </div>
+					</form>
+
+					</div>
+			</div> <!-- left side bar-->
+
+			<div class="center-content col-xs-12 col-md-8">
+				<div id="forum">
+					<a href="question-landing.html">
+					<div id="article" class=" col-md-12">
+						<div id="article-img-block">
+							<h4 id="forum-caption">
+
+
+								What do you do for a hurting stomach?
+
+							</h4>
+						</div>
+						    
+						<div class="button-forum">
+							<button class="btn btn-default">15 Upvotes</button>
+							<button class="btn btn-default">
+								<a href="#" onclick="toggle_visibility('foo');">2 Comments</a>
+							</button>
+							<button class="btn btn-default">
+
+								<a id="the-thing-that-opens-your-alert" href="#">Save</a>
+    
+							  
+														
+							</button>
+							<!-- Button trigger modal SHARE-->
+									<button type="button" class="btn btn-default btn-md share" data-toggle="modal" data-target="#myModal">
+									 Share
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h4 class="modal-title" id="myModalLabel">Share to 
+									         Facebook Twitter Pinterest Emailch</h4>
+									      </div>
+									      <div class="modal-body">
+									        Facebook Twitter Pinterest Email
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <a href="index.html">
+									        	<button type="button" class="btn btn-primary share">Share</button>
+									        </a>
+									        
+									      </div>
+									    </div>
+									  </div>
+									</div>
+										
+
+									<!-- Button trigger modal -->
+									<button type="button" class="btn btn-default btn-md report" data-toggle="modal" data-target="#myModalreport">
+									  Report
+									</button>
+
+									<!-- Modal -->
+									<div class="modal" id="myModalreport" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h4 class="modal-title" id="myModalLabel">REPORT</h4>
+									      </div>
+									      <div class="modal-body">
+									        <input type="checkbox" aria-label="..."> Direspectful/Harassing Content: Antagonistic language towards a person/group <br>
+									        <input type="checkbox" aria-label="..."> Spam: Product advertisement or advertising link <br>
+									        <input type="checkbox" aria-label="..."> Plagiarism: Response takes wording from another source without proper source attribution <br>
+									        <input type="checkbox" aria-label="..."> Poor Formatting: Formatting dirupts the aesthetic quality of the site. <br>
+									        <input type="checkbox" aria-label="..."> Not in English: Response is in a language other than English. <br>
+									        <input type="checkbox" aria-label="..."> Factually Incorrect: Response is blatantly incorrect. <br>
+									        <input type="checkbox" aria-label="..."> Other. <br>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Submit</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>						
+
+
+						</div>
+						<div id="foo" style="display:none">
+							<span>
+								<h2 style="padding-top:1em;     
+											font-size: 18px;
+										    font-family: Calibre_M;
+
+    font-weight: 500 !important;
+        line-height: 1.4em; display:none;
+
+
+												"
+											>
+											<bold style="font-family:calibre_b;">
+											THE QUESTION:
+										</bold>
+
+									 
+
+									What do you do for a hurting stomach? </h2>
+							</span>
+							
+							<form class="comment-form" action="">
+								<span>
+									<h4 style="margin-bottom:0px;padding-top:12px; font-family:adobe caslon pro; font-style:italic;">What we know...</h4>
+								</span>	
+							<div class="user-comment" style="margin-top: -10px;">
+								
+								<a href="profile.html">
+										<img 
+						        	class="nav-profile-image-hp"
+						        	src="https://s3.amazonaws.com/slant/users/f6285ec7-c58d-4e46-bd89-3b0f5a67f85a/media_6a7c9b00-1a13-11e5-b2b9-0193dca05497.jpg" alt="">
+						        	</a>
+						        	<textarea value="Add a comment.." name="" id="" cols="70" rows="1">Join the discussion...</textarea>
+
+									<button class="btn btn-default btn-sm" style="    padding: 2px 5px;">SUBMIT</button>
+
+								
+							</div>
+
+							<div class="user-comment">
+
+
+								
+								<a href="profile.html">
+										<img 
+						        	class="nav-profile-image-hp"
+						        	src="https://s3.amazonaws.com/slant/users/f6285ec7-c58d-4e46-bd89-3b0f5a67f85a/media_6a7c9b00-1a13-11e5-b2b9-0193dca05497.jpg" alt="">
+						        	 </a>	<h5 id="user-comment-name">MADELINE O'MOORE</h5> 
+						        	 <small>15 followers <span class="bullet"> • </span> Published October 7 2015</small><br>
+
+					        	<text name="" id="" cols="30" rows="1">
+					        		The thing is that you already have everything you need
+					        	</text>
+
+					        	<div class="button-forum">
+							<button class="btn btn-default btn-xs">Upvote</button>
+							<button class="btn btn-default btn-xs">Save</button>
+
+							<button class="btn btn-default btn-xs">
+								<a href="#" onclick="toggle_visibility('foo2');">Respond</a>
+							</button>
+
+
+
+							<!-- Button trigger modal SHRE-->
+									<button type="button" class="btn btn-default share btn-xs" data-toggle="modal" data-target="#myModal">
+									 Share
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+									      </div>
+									      <div class="modal-body">
+									        ...
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Save changes</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+
+										
+
+																<!-- Button trigger modal -->
+									<button type="button" class="btn btn-default report btn-xs" data-toggle="modal" data-target="#myModalreport">
+									  Share
+									</button>
+
+										<div id="foo2" style="display:none">
+							<form action="">
+
+							<textarea name="" id="" cols="40" rows="1"></textarea>
+
+							<button class="btn btn-default">SUBMIT</button>
+							</form>
+						</div>
+
+					       
+
+									<!-- Modal -->
+									<div class="modal fade" id="myModalreport" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h4 class="modal-title" id="myModalLabel">REPORT</h4>
+									      </div>
+									      <div class="modal-body">
+									        ...
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Submit</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>						
+
+
+						</div>  <!-- end button form -->
+					       
+							
+							</div>
+
+							<div class="user-comment">
+								
+								<a href="other-user-profile.html">
+										<img 
+						        	class="nav-profile-image-hp"
+						        	src="https://pbs.twimg.com/profile_images/599301803402919936/hGPZFVt6.jpg" alt="">
+						        	 </a>	<h5 id="user-comment-name">DANA MARCOLINA</h5>
+						        	 <small>20 followers <span class="bullet"> • </span> Published October 7 2015</small></small><br>
+
+					        	<text name="" id="" cols="30" rows="1">
+					        		Usually when I have a hurting stomach I boil some fresh ginger root	
+					        	</text>
+					        	<div class="button-forum">
+							<button class="btn btn-default btn-xs">Upvote</button>
+							<button class="btn btn-default btn-xs">Save</button>
+
+							<button class="btn btn-default btn-xs">
+								<a href="#" onclick="toggle_visibility('foo3');">Respond</a>
+							</button>
+
+
+							<!-- Button trigger modal SHRE-->
+									<button type="button" class="btn btn-default share btn-xs" data-toggle="modal" data-target="#myModal">
+									 Share
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+									      </div>
+									      <div class="modal-body">
+									        ...
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Save changes</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+										
+
+																<!-- Button trigger modal -->
+									<button type="button" class="btn btn-default report btn-xs" data-toggle="modal" data-target="#myModalreport">
+									  Share
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="myModalreport" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h4 class="modal-title" id="myModalLabel">REPORT</h4>
+									      </div>
+									      <div class="modal-body">
+									        ...
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Save changes</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>						
+
+
+						</div>  <!-- end button form -->
+							<div id="foo3" style="display:none">
+							<form action="">
+
+							<textarea name="" id="" cols="40" rows="1"></textarea>
+
+							<button class="btn btn-default">SUBMIT</button>
+							</form>
+						</div>
+
+					       
+					       
+							
+							</div>
+							
+							</form>
+						</div>
+					</div>
+
+					</a> <!-- end question landing -->
+					<a href="question-landing.html">
+
+					<div id="article" class=" col-md-12">
+						<div id="article-img-block2">
+							<h1 id="forum-caption">Are we the women our mothers hoped we would be?</h1>
+						</div>
+						
+						<div class="button-forum">
+							<button class="btn btn-default">Upvote</button>
+							<button class="btn btn-default">Respond</button>
+							<button class="btn btn-default">Save</button>
+							<button class="btn btn-default share">Share</button>
+							<button class="btn btn-default report">Report</button>
+						</div>
+					</div>
+
+					</a> <!-- end question landing -->
+					<a href="question-landing.html">
+					<div id="article" class=" col-md-12">
+						<div id="article-img-block3">
+							<h1 id="forum-caption">How do I get rid of negative body image?</h1>
+						</div>
+						
+						<div class="button-forum">
+							<button class="btn btn-default">Upvote</button>
+							<button class="btn btn-default">Save</button>
+							<button class="btn btn-default">Respond</button>
+							<button class="btn btn-default share">Share</button>
+							<button class="btn btn-default report">Report</button>
+						</div>
+					</div>
+					</a> <!-- end question landing -->
+				</div>
+				
+			</div> <!-- center content -->
+		
+
+		<div class="left-side-bar col-xs-12 col-md-3 visible-xs">
+				<div class="trending-box">
+					<h5>TRENDING</h5>
+					<ul class="trending-items">
+						<li class="list-item-trending">
+							<a href="question-landing.html">
+							What do you do for a hurting stomach?
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							How do I get rid of negative body image?
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							Why does all milk make my breath smell?
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							What are some of the best ways we can help one another outside of the standard inspirational quotes?  
+							</a>
+
+						</li>
+							<li class="list-item-trending">
+							<a href="question-landing.html">
+							How does your race, nationality and class status affect the way the world perceives your 'womaness' ?
+							</a>
+
+						</li>
+					</ul>
+				</div> <!-- trending box -->
+				<div class="social-box">
+					<h5>SOCIAL</h5>
+
+					
+					<ul id="social-button">
+						<li class="google-plus-4-48"></li>
+						<li class="facebook-4-48"></li>
+						<li class="instagram-4-48"></li>
+						<li class="pinterest-4-48"></li>
+						<li class="sharethis-4-48"></li>
+						<li class="twitter-4-48"></li>
+					</ul>
+					
+				</div>
+				<div class="our-picks ">
+					<h5>GET IN THE KNOW</h5>
+					<div class="picks-item  col-md-12">
+						<a href="spotlight-landing.html">
+						<img src="http://41.media.tumblr.com/e9dc028ce0bbcbd3dccb118afc18febc/tumblr_n9echqyao11qdnfkpo1_500.png" alt="" class="img-responsive">
+						<h5>Favorite LA Hangs</h5>
+						</a>
+					</div>
+					<div class="picks-item col-md-12">
+						<a href="spotlight-landing.html">
+						<img src="http://36.media.tumblr.com/de7a3490cd3c2ddc0c07fba109b19def/tumblr_nnev09Sm3J1r1613eo1_500.jpg" alt="" class="img-responsive">
+						<h5>Favorite LA Hangs</h5>
+						</a>
+					</div>
+					<div class="picks-item col-md-12">
+						<a href="spotlight-landing.html">
+						<img src="http://41.media.tumblr.com/13cace6e90d8e0b9aa099e2fcc9a0d2c/tumblr_ns29byQHQa1sn8k1uo1_500.png" alt="" class="img-responsive">
+						<h5>Favorite LA Hangs</h5>
+						</a>
+					</div>
+				
+				</div>
+			</div> <!-- left side bar-->
+
+			</div> <!-- row -->
+
+	</div> <!-- content-->
+
+
+
+	</div> <!-- containter -->
+
+	<div id="up-arrow-bottom">
+          <span class="glyphicon glyphicon-triangle-top scrollToTop" aria-hidden="true"></span>
+         
+       </div>
+
+         <div id="le-alert" class="alert alert-warn alert-block fade alert alert-success">
+							      <button href="#" type="button" class="close">&times;</button>
+							      <h4>Saved!</h4>
+							      <p>This post is now saved on your 
+
+							      	<a href="saved.html" class="alert-link">	reading list.</a>
+							      
+
+							      </p>
+							    </div>
+
+  
+</body>
+
+<footer>
+	
+<div id="footer">
+  	<div class="container text-center">
+
+    
+  
+
+    <div class="social-box">
+					
+					<ul class="share-buttons">
+									  <li><a href="https://www.facebook.com/sharer/sharer.php?u=&amp;t=" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/inverted/Facebook.png"></a></li>
+									  <li><a href="https://twitter.com/intent/tweet?source=&amp;text=:%20" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/inverted/Twitter.png"></a></li>
+									  <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/inverted/Google+.png"></a></li>
+									  <li><a href="http://www.tumblr.com/share?v=3&amp;u=&amp;t=&amp;s=" target="_blank" title="Post to Tumblr"><img src="images/flat_web_icon_set/inverted/Tumblr.png"></a></li>
+									  <li><a href="http://pinterest.com/pin/create/button/?url=&amp;description=" target="_blank" title="Pin it"><img src="images/flat_web_icon_set/inverted/Pinterest.png"></a></li>
+									  <li><a href="mailto:?subject=&amp;body=:%20" target="_blank" title="Email"><img src="images/flat_web_icon_set/inverted/Email.png"></a></li>
+									</ul>
+				</div>
+
+
+
+				<h2 class='footer-brand'> THE KNOW COLLECTIVE </h2>
+  <p class="text-muted credit" style="color:#fff"> <p class="text-muted credit" style="color:#fff">
+
+    	<a href="about.html">ABOUT US</a> 
+    	|  
+
+    	<a href="terms.html">TERMS</a> |  
+
+    	<a href="privacy.html">PRIVACY</a> 
+
+    </p>
+			
+				<span>
+				<small class="footer-small">
+					© 2005-2015
+				</small>
+					
+
+				</span>
+  </div>
+</div>
+
+
+</footer>
+</html>
+   <script src="js/simple-slider.js"></script>
+
+  
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/didt-min.js"></script>
+
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'none')
+          e.style.display = 'block';
+       else
+          e.style.display = 'none';
+    }
+//-->
+
+$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+
+    $('#the-thing-that-opens-your-alert').click(function () {
+      $('#le-alert').addClass('in'); // shows alert with Bootstrap CSS3 implem
+    });
+    
+    $('.close').click(function () {
+      $(this).parent().removeClass('in'); // hides alert with Bootstrap CSS3 implem
+    });
+</script>

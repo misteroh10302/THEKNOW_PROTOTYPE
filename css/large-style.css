@@ -1,0 +1,114 @@
+@media screen and (min-width: 1200px){
+
+	.content {
+		max-width: 1200px;
+	}
+
+	.center-content {
+		margin-left: 0em;
+
+	}
+	
+}
+
+#spotlight-article {
+    padding: 0px 0px 0px;
+    /* margin-left: 15px; */
+    margin-right: 10px;
+}
+
+@media (min-width: 992px) {  
+
+    .center-content.col-xs-12.col-md-8 {
+
+         width: 74.66666667%;
+          padding-left: 15px;
+          padding-right: 0px;
+
+}
+
+#spotlight-article.col-md-4 {
+    width: 28.29333333%;
+}
+
+
+
+}
+
+
+
+.bleed-image img {
+	max-width: 100%;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+/*** BETA SCREEN ***/
+
+.beta-content {
+	text-align: center;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+
+
+}
+
+.beta-content h5{
+        font-size: 16px;
+    line-height: 22px;
+    white-space: nowrap;
+    color: #fff;
+    font-family: calibre_M;
+
+}
+
+#beta-title {
+	    color: white;
+    font-size: 3vw;
+    font-family: CALIBRE_M;
+
+}
+
+.bcg-beta-screen {
+           background-color: rgba(0, 0, 0, 0.09);
+
+}
+
+.beta-counter-text {
+	color:white;
+}
+
+.become-beta {
+	       width: 300px;
+    margin: 0 auto;
+}
+
+.become-beta button.btn.btn-default.btn-small {
+    width:100%;
+        background-image: none;
+    background-color: #C8DFF3;
+    font-family: Calibre_bold;
+    letter-spacing: 2px;
+}
+
+
+.login {
+
+    width: 300px;
+    margin: 0 auto;
+
+
+}
+
+
+.login button.btn.btn-primary.btn-lg{ 
+    width:100%;
+
+}
+
+

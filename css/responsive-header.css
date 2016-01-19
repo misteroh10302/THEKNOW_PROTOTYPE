@@ -1,0 +1,107 @@
+
+
+#container {
+    margin: 0 auto;
+}
+
+#content {
+	           padding: 0px 0px 0px 25px;
+}
+/*
+/
+/
+/ NAVBAR
+*/
+
+.navbar-default {
+	background-image: none;
+}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* 
+Left Side Bar 
+*/
+
+.left-side-bar {
+	border: 1px solid transparent;
+}
+
+/*
+CENTER CONTENT 
+*/
+
+.center-content {
+	border: 1px solid transparent;
+
+}
+
+#article-img-block {
+	min-height: 200px;
+	background-image: url(http://endorph.me/assets/images/testhome_4.jpg);
+	background-size: 100%;
+}
+
+
+#article-img-block2 {
+	min-height: 200px;
+	background-image: url(http://media.virbcdn.com/cdn_images/resize_1600x1600/87/3dfa7ccb1de99a97-MADDIE_DOUBLE.jpg);
+	background-size: 100%;
+}
+
+
+#article-img-block3 {
+	min-height: 200px;
+	background-image: url(http://media.virbcdn.com/cdn_images/resize_1600x1600/27/4d68faae40935c0f-Image168copy.jpg);
+	background-size: 100%;
+}
+
+
+/*** RESPONSIVE STYLES **/
+
+/* spotlight page 
+*/
+
+@media (max-width: 768px) {
+    ul.social-fixed {
+       display:none;
+    }
+
+}
+
+
+
+
+/* profile
+*/
+
+@media (max-width: 768px) {
+   .tab-content {
+   	padding: 24px;
+   }
+
+   .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 12px !important;
+	}
+
+	.privacy {
+		padding: 0px 24px;
+	}
+
+	#article-img-block {
+    min-height: 280px;
+    background-image: url(http://endorph.me/assets/images/testhome_4.jpg);
+    background-size: 100%;
+}
+
+}
